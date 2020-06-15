@@ -1,0 +1,21 @@
+body{
+
+    background-image: url("../images/background.jpg");
+    height: 400px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-title{
+    background-color:rgb(203, 219, 235);
+
+}
+header{
+    font-size: 200%;
+}
+
+
+
+    
