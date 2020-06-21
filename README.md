@@ -57,7 +57,7 @@ Your updated site should have the following content:
   
   
 The following animation demonstrates the application functionality:
-
+![image](https://user-images.githubusercontent.com/62354759/85216087-ad079e00-b34e-11ea-8a94-e08ddba336ca.png)
 
 
 #### Design
