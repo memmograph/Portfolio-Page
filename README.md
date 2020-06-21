@@ -57,7 +57,9 @@ Your updated site should have the following content:
   
   
 The following animation demonstrates the application functionality:
-![Portfolio-Page(./assets/portfolio.gif)
+
+
+![Portfolio-Page(./assets/images/portfolio.gif)
 
 
 #### Design
