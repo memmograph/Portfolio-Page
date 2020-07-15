@@ -8,6 +8,8 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="relaxCSS.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 
   <!-------------------html and css----------------------->
   <link rel="stylesheet" href="index.html">
@@ -17,51 +19,20 @@
 
 
 
-    <!---------------------navigation bar---------------------->
-  <nav class="navbar-title">
+  <div class="nav sb dark">
+		<a class="title" href="">Laura</a>
 
- 
-    <div class="container">
-      
-      <row class="row">
-
-          <!---------------------nav/title name------------->
-        <section class="col-lg-2">
-          <div>
-          <div class="text-center">
-          <div class="p-1 mb-1 bg-info text-white"><h2>Laura</h2></div>
-          </div>
-          </div>
-        </section>
-
-          <!---------------------nav/empty column------------->
-        <section class="col-lg-6">
-
-        </section>
-
-          <!--------------------nav/page links------------->
-        <section class="col-lg-4">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" id="links"  href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="links" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="links" href="contact.html">Contact</a>
-                </li>
-              </ul>
-        </section>
-      </row>
-    </div>
-  </nav>
-
+		<ul>
+			<li><a id="links" href="index.html">About</a></li>
+			<li><a id="links" href="portfolio.html">Portfolio</a></li>
+			<li><a id="links" href="contact.html">Contact</a></li>
+		</ul>
+	</div>>
 
 
 <!---------------body container -------------------------->
 
-<div class="container">
+<div class="container" id="main">
   <row class="row">
   
         <section class="col-lg-6">
@@ -78,28 +49,31 @@
     <div class="container">
       <row class="row">
           <section class="col-lg-6">
-              <header>Portfolio</header><br>
+              <header class="title">Portfolio</header><br>
           </section>
       
       </row>
     </div>  
 <!------------------------main section ------------->
-    <div class="container">
-      <row class="row">
 
+<div class="container">
+      <row class="row">
           <section class="col-lg-6">
             <h3>Fitness Tracker Project</h3>
+            <p class="border-2">
             <img src="./assets/images/fitness-tracker.gif" class="img-fluid" alt="apps">
             <a id="web-links" href="https://github.com/evandev01/fitness-tracker">GitHub Fitness Tracker </a><br>
             <a id="web-links" href="https://evandev01.github.io/fitness-tracker/">Fitness Tracker Website </a>
-      
-            
+            </p>
           </section>
+
           <section class="col-lg-6">
-            <h3>Template Engine-Employee Summary</h3>
+            <h3>Employee Summary</h3>
+            <p class="border-2">
             <img src="./assets/images/template-engine.gif" class="img-fluid" alt="video tutorial on a computer">
-            <a id="web-links" href="https://github.com/llaraama/HW8-Template-Engine-Employee-Summary">GitHub Template Engine-Employee Summary</a> <br>
+            <a id="web-links" href="https://github.com/llaraama/HW8-Template-Engine-Employee-Summary">GitHub Employee Summary</a> <br>
             <a id="web-links"href="https://drive.google.com/file/d/10vN-L1tKkg1kKKFRdgSGBwJgZNBRQT0D/view"> App functionality video </a> 
+            </p>
           </section>
       </row>
     </div><br>
@@ -109,17 +83,19 @@
 
           <section class="col-lg-6">
             <h3>Weather Dashboard</h3>
+            <p class="border-2">
             <img src="./assets/images/weather.gif" class="img-fluid" alt="a computer on a website ">
             <a id="web-links" href="https://github.com/llaraama/HW6-Weather-Dashboard">GitHub Weather Dashbaord</a><br>
             <a id="web-links" href="https://llaraama.github.io/HW6-Weather-Dashboard/">Weather Dashboard Website </a>
-            
+            </p>
           </section>
           <section class="col-lg-6">
             <h3>Day Planner</h3>
+            <p class="border-2">
             <img src="./assets/images/planner.gif" class="img-fluid" alt="video tutorial on a computer">
             <a id="web-links" href="https://github.com/llaraama/HW5-Work-Day-Scheduler">GitHub Day Planner</a> <br>
             <a id="web-links"href="https://llaraama.github.io/HW5-Work-Day-Scheduler/">Day Planner Website </a>
-            
+            </p>
           </section>
       </row>
     </div><br>
@@ -133,8 +109,8 @@
 <!------------footer-------------------------------------------->  
   
 <footer>
-  <div class="footer-copyright text-center py-3">
-  <div class="p-3 mb-2 bg-secondary text-white">© Copyright</div>
+  <div class="nav sb dark">
+    <a id="footer" href="">© 2020 </a>
   </div>
 </footer>
 

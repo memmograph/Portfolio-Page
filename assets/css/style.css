@@ -35,7 +35,15 @@ p{
 #portfolio{
     text-align: center;
 }
-
-
+.title{
+    font-family: 'Sacramento', cursive;
+    font-size: 250%;
+}
+#main{
+    width: 60%;
+}
+a#copyright{
+    text-align: center;
+}
 
     
