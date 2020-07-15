@@ -8,9 +8,6 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="relaxCSS.css">
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-
 
   <!-------------------html and css----------------------->
   <link rel="stylesheet" href="index.html">
@@ -23,15 +20,46 @@
 </head>
 <body>
 
-  div class="nav sb dark">
-  <a class="title" href="">Laura</a>
+    <!---------------------navigation bar---------------------->
+  <nav class="navbar-title">
 
-  <ul>
-    <li><a id="links" href="index.html">About</a></li>
-    <li><a id="links" href="portfolio.html">Portfolio</a></li>
-    <li><a id="links" href="contact.html">Contact</a></li>
-  </ul>
-</div>
+ 
+    <div class="container">
+      
+      <row class="row">
+    
+          <!---------------------nav/title name------------->
+        <section class="col-lg-2">
+          <div>
+          <div class="text-center">
+          <div class="p-1 mb-1 bg-info text-white"><h2>Laura</h2></div>
+          </div>
+          </div>
+        </section>
+
+          <!---------------------nav/empty column------------->
+        <section class="col-lg-6">
+
+        </section>
+
+          <!--------------------nav/page links------------->
+        <section class="col-lg-4">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" id="links" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="links" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="links" href="contact.html">Contact</a>
+                </li>
+              </ul>
+        </section>
+      </row>
+    </div>
+  </nav>
+
 
 
 <!---------------body container -------------------------->
@@ -91,10 +119,11 @@
 
 <!------------footer-------------------------------------------->  
 
-<footer>
-  <div class="nav sb dark">
-    <a id="copyright">© 2020 </a>
-  </div>
+  <footer>
+    <div class="footer-copyright text-center py-3">
+    <div class="p-3 mb-2 bg-secondary text-white">© Copyright</div>
+    </div>
+  </footer>
   
 </body>
 </html>
