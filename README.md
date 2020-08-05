@@ -1,5 +1,5 @@
 # Portfolio-Page
-https://llaraama.github.io/Portfolio-Page/index.html
+
 # Unit 08 Project 1 Homework: Professional Materials
 
 Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
