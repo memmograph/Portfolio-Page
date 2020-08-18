@@ -1,6 +1,6 @@
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51 , 0.85);
+    --primary-color: rgba(13, 110, 139, 0.55);
+    --overlay-color: rgba(24, 39, 51 , 0.75);
     --menu-speed: 0.75s;
   }
   
@@ -313,5 +313,6 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
         font-size: 10px;
     }
 }
+
 
 
