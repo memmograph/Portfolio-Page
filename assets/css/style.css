@@ -1,6 +1,6 @@
 :root {
-    --primary-color: rgba(13, 110, 139, 0.70);
-    --overlay-color: rgba(24, 39, 51 , 0.75);
+    --primary-color: rgba(13, 110, 139, 0.65);
+    --overlay-color: rgba(24, 39, 51 , 0.85);
     --menu-speed: 0.75s;
   }
   
@@ -11,7 +11,7 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     line-height: 1.4;
   }
   
@@ -224,9 +224,6 @@
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: "Montserrat";
-}
 :root {
     --mycolor: rgb(255,0,140)
 }
@@ -248,7 +245,6 @@ footer {
     margin: 40px auto;
 }
 
-footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 .list-footer {
     margin: 40px auto;
     display: flex;
@@ -259,13 +255,11 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
 }
 .list-footer li a:hover{color: var(--mycolor);}
 
-.social-media {
-    margin: 20px auto;
-}
+
 .social-media i {
     padding: 20px;
     font-size: 25px;
@@ -276,10 +270,6 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 }
 
 @media(max-width:810px){
-    .text ,  footer input[type='email'] ,
-    footer input[type='submit'] {
-        font-size: 20px;
-    }
     .list-footer li a {
         padding: 15px;
         font-size: 15px;
@@ -289,10 +279,6 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
     }
 }
 @media(max-width:610px){
-    .text ,  footer input[type='email'] ,
-    footer input[type='submit'] {
-        font-size: 14px;
-    }
     .list-footer li a {
         padding: 10px;
         font-size: 12px;
@@ -316,4 +302,43 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 }
 
 
+.card {
+  display: grid;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  text-align: center;
+  height: 98%;
+  width:100%;
+}
+#img {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
 
+
+#img {
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-text {
+  grid-area: text;
+  /* margin: 25px; */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:3px;
+}
+#web-links{
+  font-size: 80%;
+}
