@@ -261,7 +261,7 @@ footer {
 
 
 .social-media i {
-    padding: 20px;
+    padding: 8px;
     font-size: 25px;
     color: #fff;
 }
@@ -306,7 +306,7 @@ footer {
   display: grid;
   border-radius: 18px;
   background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  box-shadow: 5px 5px 15px rgba(19, 127, 146, 0.5);
   text-align: center;
   height: 98%;
   width:100%;
@@ -340,5 +340,16 @@ footer {
   margin:3px;
 }
 #web-links{
-  font-size: 80%;
+  font-size: 90%;
+  color:var(--primary-color);
+  font-weight: bold;
+
+}
+
+.bio{
+  font-size: 125%;
+}
+h3{
+  color:rgb(18, 108, 114);
+  font-weight: bold;
 }
