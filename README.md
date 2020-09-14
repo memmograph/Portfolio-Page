@@ -1,7 +1,7 @@
 # Portfolio-Page
 Deployed page: https://llaraama.github.io/Portfolio-Page/
 
-![badmath](https://img.shields.io/github/languages/top/llaraama/Porfolio-Page)
+![badmath](https://img.shields.io/github/languages/top/llaraama/Portfolio-Page)
 
 ## Table of Contents:
   * [Description](#Description)
