@@ -10,14 +10,14 @@ import Card from "./components/Card"
 
 function App() {
   return (
-  <Router>
-    <Card />
-    <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-  </Router>
+    <Router>
+      <Card />
+      <Navbar />
+      <Route exact path="/Portfolio-Page/" component={Home} />
+      <Route exact path="/Portfolio-Page/about" component={About} />
+      <Route exact path="/Portfolio-Page/portfolio" component={Portfolio} />
+      <Route exact path="/contact" component={Contact} />
+    </Router>
   );
 }
 
