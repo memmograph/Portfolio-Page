@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Page/static/css/main.dc99ac24.chunk.css",
+    "main.js": "/Portfolio-Page/static/js/main.67ee6add.chunk.js",
+    "main.js.map": "/Portfolio-Page/static/js/main.67ee6add.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Page/static/js/runtime-main.43b87aea.js",
+    "runtime-main.js.map": "/Portfolio-Page/static/js/runtime-main.43b87aea.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/Portfolio-Page/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9c6f2592.chunk.js": "/Portfolio-Page/static/js/2.9c6f2592.chunk.js",
+    "static/js/2.9c6f2592.chunk.js.map": "/Portfolio-Page/static/js/2.9c6f2592.chunk.js.map",
+    "index.html": "/Portfolio-Page/index.html",
+    "precache-manifest.f88f02c0d45785e78d9380e8c0591ca5.js": "/Portfolio-Page/precache-manifest.f88f02c0d45785e78d9380e8c0591ca5.js",
+    "service-worker.js": "/Portfolio-Page/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/Portfolio-Page/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.dc99ac24.chunk.css.map": "/Portfolio-Page/static/css/main.dc99ac24.chunk.css.map",
+    "static/js/2.9c6f2592.chunk.js.LICENSE.txt": "/Portfolio-Page/static/js/2.9c6f2592.chunk.js.LICENSE.txt",
+    "static/media/EmployeeTracker.gif": "/Portfolio-Page/static/media/EmployeeTracker.b390bde5.gif",
+    "static/media/LauraLaraAmaya_Resume.pdf": "/Portfolio-Page/static/media/LauraLaraAmaya_Resume.4b8a998e.pdf",
+    "static/media/Workout-tracker.gif": "/Portfolio-Page/static/media/Workout-tracker.51d2dc2d.gif",
+    "static/media/style.css": "/Portfolio-Page/static/media/background1.1f719141.jpg",
+    "static/media/birthday.gif": "/Portfolio-Page/static/media/birthday.c528a154.gif",
+    "static/media/burger.gif": "/Portfolio-Page/static/media/burger.81304af1.gif",
+    "static/media/employee-directory.gif": "/Portfolio-Page/static/media/employee-directory.56a3d8d3.gif",
+    "static/media/fitness-tracker.gif": "/Portfolio-Page/static/media/fitness-tracker.182881ae.gif",
+    "static/media/laura1.jpg": "/Portfolio-Page/static/media/laura1.ad45e2b1.jpg",
+    "static/media/notes.gif": "/Portfolio-Page/static/media/notes.079882ff.gif",
+    "static/media/planner.gif": "/Portfolio-Page/static/media/planner.1a3a635e.gif",
+    "static/media/weather.gif": "/Portfolio-Page/static/media/weather.d9b815b0.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43b87aea.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9c6f2592.chunk.js",
+    "static/css/main.dc99ac24.chunk.css",
+    "static/js/main.67ee6add.chunk.js"
+  ]
+}
