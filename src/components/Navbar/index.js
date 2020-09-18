@@ -1,23 +1,24 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
-function Navbar (){
-    return(
-      <nav className="menu-wrap">
-        <input type="checkbox" className="toggler"></input>
-        <div className="hamburger"><div></div></div>
-        <div className="menu">
+function Navbar() {
+  return (
+    <nav className="menu-wrap">
+      <input type="checkbox" className="toggler"></input>
+      <div className="hamburger"><div></div></div>
+      <div className="menu">
+        <div>
           <div>
-            <div>
-              <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
+            <ul>
+              <li><Link to={process.env.PUBLIC_URL + "/"}>Home</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + "/about"}>About</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + "/portfolio"}>Portfolio</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    )
+      </div>
+    </nav>
+  )
 }
 export default Navbar

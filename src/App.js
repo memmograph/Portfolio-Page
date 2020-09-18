@@ -10,14 +10,14 @@ import Card from "./components/Card"
 
 function App() {
   return (
-  <Router>
-    <Card />
-    <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-  </Router>
+    <Router>
+      <Card />
+      <Navbar />
+      <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+      <Route exact path={process.env.PUBLIC_URL + "/about"} component={About} />
+      <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio} />
+      <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
+    </Router>
   );
 }
 
