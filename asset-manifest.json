@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-page/static/css/main.4c13dba9.chunk.css",
-    "main.js": "/portfolio-page/static/js/main.9f31956d.chunk.js",
-    "main.js.map": "/portfolio-page/static/js/main.9f31956d.chunk.js.map",
+    "main.js": "/portfolio-page/static/js/main.091c88df.chunk.js",
+    "main.js.map": "/portfolio-page/static/js/main.091c88df.chunk.js.map",
     "runtime-main.js": "/portfolio-page/static/js/runtime-main.a1ed60d5.js",
     "runtime-main.js.map": "/portfolio-page/static/js/runtime-main.a1ed60d5.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio-page/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.9c6f2592.chunk.js": "/portfolio-page/static/js/2.9c6f2592.chunk.js",
-    "static/js/2.9c6f2592.chunk.js.map": "/portfolio-page/static/js/2.9c6f2592.chunk.js.map",
+    "static/js/2.32b8bd83.chunk.js": "/portfolio-page/static/js/2.32b8bd83.chunk.js",
+    "static/js/2.32b8bd83.chunk.js.map": "/portfolio-page/static/js/2.32b8bd83.chunk.js.map",
     "index.html": "/portfolio-page/index.html",
-    "precache-manifest.3bb89e0a515b6109c139acd8d00908ca.js": "/portfolio-page/precache-manifest.3bb89e0a515b6109c139acd8d00908ca.js",
+    "precache-manifest.d261f0a059f9e3da7f631256f5044150.js": "/portfolio-page/precache-manifest.d261f0a059f9e3da7f631256f5044150.js",
     "service-worker.js": "/portfolio-page/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio-page/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.4c13dba9.chunk.css.map": "/portfolio-page/static/css/main.4c13dba9.chunk.css.map",
-    "static/js/2.9c6f2592.chunk.js.LICENSE.txt": "/portfolio-page/static/js/2.9c6f2592.chunk.js.LICENSE.txt",
+    "static/js/2.32b8bd83.chunk.js.LICENSE.txt": "/portfolio-page/static/js/2.32b8bd83.chunk.js.LICENSE.txt",
     "static/media/EmployeeTracker.gif": "/portfolio-page/static/media/EmployeeTracker.b390bde5.gif",
     "static/media/LauraLaraAmaya_Resume.pdf": "/portfolio-page/static/media/LauraLaraAmaya_Resume.4b8a998e.pdf",
     "static/media/Workout-tracker.gif": "/portfolio-page/static/media/Workout-tracker.51d2dc2d.gif",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.a1ed60d5.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.9c6f2592.chunk.js",
+    "static/js/2.32b8bd83.chunk.js",
     "static/css/main.4c13dba9.chunk.css",
-    "static/js/main.9f31956d.chunk.js"
+    "static/js/main.091c88df.chunk.js"
   ]
 }
